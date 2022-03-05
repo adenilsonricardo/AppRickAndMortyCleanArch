@@ -37,7 +37,10 @@ class MainActivity : AppCompatActivity() {
     private fun configRv(){
         binding.rvMain.adapter = adapter
         binding.rvMain.layoutManager = GridLayoutManager(this, 2)
-        //LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+
+        //Para mudar a visualisação para Linear descomentar a linha abaixo e comentar a linha acima
+
+        //binding.rvMain.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
     }
 }
