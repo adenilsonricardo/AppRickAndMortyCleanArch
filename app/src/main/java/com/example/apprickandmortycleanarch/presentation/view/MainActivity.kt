@@ -2,10 +2,6 @@ package com.example.apprickandmortycleanarch.presentation.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.apprickandmortycleanarch.R
-
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.widget.GridLayout
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.GridLayoutManager
@@ -41,7 +37,10 @@ class MainActivity : AppCompatActivity() {
     private fun configRv(){
         binding.rvMain.adapter = adapter
         binding.rvMain.layoutManager = GridLayoutManager(this, 2)
-        //LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+
+        //Para mudar a visualisação para Linear descomentar a linha abaixo e comentar a linha acima
+
+        //binding.rvMain.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
     }
 }
