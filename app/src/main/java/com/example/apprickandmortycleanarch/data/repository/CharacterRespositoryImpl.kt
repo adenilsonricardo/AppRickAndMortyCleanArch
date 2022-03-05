@@ -1,4 +1,4 @@
-package com.example.apprickandmortycleanarch.data.respository
+package com.example.apprickandmortycleanarch.data.repository
 
 import android.os.Build
 import androidx.annotation.RequiresApi
