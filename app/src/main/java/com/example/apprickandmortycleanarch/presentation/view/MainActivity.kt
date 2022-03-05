@@ -2,10 +2,6 @@ package com.example.apprickandmortycleanarch.presentation.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.apprickandmortycleanarch.R
-
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.widget.GridLayout
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.GridLayoutManager
